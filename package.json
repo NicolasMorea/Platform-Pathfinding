@@ -1,0 +1,14 @@
+{
+  "name": "com.overthought-games.pathfinding",
+  "version": "0.0.0",
+  "displayName": "Platform Pathfinding",
+  "description": "Platform Pathfinding is a Unity package that provides a pathfinding solution for 2D platformer games.",
+  "unity": "2020.3",
+  "documentationUrl": "https://github.com/NicolasMorea/Platform-Pathfinding",
+  "changelogUrl": "https://github.com/NicolasMorea/Platform-Pathfinding/releases",
+  "licensesUrl": "https://github.com/NicolasMorea/Platform-Pathfinding/blob/master/LICENSE",
+  "author": {
+    "name": "Overthought Games",
+    "url": "https://github.com/NicolasMorea"
+  }
+}
