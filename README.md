@@ -8,9 +8,9 @@ This package provides a solution to allow an agent to explore a 2D set of platfo
 
 ## Prerequisites
 
-The package does not handle dynamics colliders for now, only fixed tilemap colliders (other static colliders can easily be added)
+The package does not handle dynamic colliders for now, only fixed tilemap colliders (other static colliders can easily be added)
 
-The size of the agent must be known beforehand, some transitions might be impossible if the agents bumps his head in a platform when jumping.
+The size of the agent must be known beforehand, some transitions might be impossible if the agents bumps its head in a platform when jumping.
 
 The gravity field of the scene can be non uniform as long as it is fixed and we can access it's value for any position in the scene
 
@@ -38,7 +38,7 @@ The gravity field of the scene can be non uniform as long as it is fixed and we 
     ```
 - A lot of similar connections are created, we then filter the graph to only keep one connections possible between each platform : the most efficient one in terms of time and velocity
 
-When the graph is created, list of debug positions are saved to debug trajectories, we can then visualize all the remaining connections :
+When the graph is created, a list of debug positions are saved to debug trajectories, we can then visualize all the remaining connections :
 
 ![Example](Documentation~/Paths_Simple.png "Multi-Gravity Trajectories")
 
@@ -54,7 +54,7 @@ Here is an example in an area where the gravity changes, the entity can jump and
 
 ![Example](Documentation~/Paths_Complex.png "Multi-Gravity Trajectories")
 
-- The gravity area are displayed with color points (green = down, yellow = up, red = right, blue = left)
+- The gravity areas are displayed with color points (green = down, yellow = up, red = right, blue = left)
 
 ## Pathfinding Logic
 
